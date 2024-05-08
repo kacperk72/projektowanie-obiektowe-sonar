@@ -1,1 +1,1 @@
-# projektowanie-obiektowe-sonar
+# Analiza aplikacji pod względem błędów i code smells
