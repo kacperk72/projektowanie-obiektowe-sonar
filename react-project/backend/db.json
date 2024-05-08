@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Produkt 1",
+      "price": 30
+    },
+    {
+      "id": "2",
+      "name": "Produkt 2",
+      "price": 20
+    },
+    {
+      "id": "3",
+      "name": "Produkt 3",
+      "price": 220
+    },
+    {
+      "id": "4",
+      "name": "Produkt 4",
+      "price": 2120
+    },
+    {
+      "id": "5",
+      "name": "Produkt 5",
+      "price": 5
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Usługa 1",
+      "description": "Usługa 1 opis",
+      "price": 100
+    },
+    {
+      "id": "2",
+      "name": "Usługa 2",
+      "description": "Usługa 2 opis",
+      "price": 80
+    }
+  ],
+  "orders": [
+    {
+      "id": "f1d4",
+      "customerName": "kacper k",
+      "address": "asdasd",
+      "phoneNumber": "123123123",
+      "orderDetails": "test zamowniea"
+    }
+  ],
+  "payments": [],
+  "cart": []
+}

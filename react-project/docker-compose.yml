@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_BACKEND_URL=http://backend:4000
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: dockerfile.backend
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./backend/db.json:/backend/db.json
